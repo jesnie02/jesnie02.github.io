@@ -416,18 +416,18 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   grid-template-columns: 1fr 1fr;
   gap: 0 64px;
   padding: 120px 40px;
-  background: var(--bg-dark);
+  background: #1c1c1c;
   border-bottom: none;
 }
 .contact-left { display: flex; flex-direction: column; }
-.contact-num { color: #333; -webkit-text-stroke: 1px #444; }
-.contact-title { color: var(--text-dark); }
+.contact-num { color: #444; -webkit-text-stroke: 1px #555; }
+.contact-title { color: #f0ede8; }
 .contact-quote {
   font-family: var(--font-serif);
   font-style: italic;
   font-size: 28px;
   line-height: 1.4;
-  color: var(--text-dark);
+  color: #f0ede8;
   margin: 28px 0;
 }
 .contact-links { display: flex; flex-direction: column; }
@@ -438,29 +438,29 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   font-family: var(--font-mono);
   font-size: 10px;
   letter-spacing: 0.1em;
-  color: #aaa;
+  color: #ccc;
   padding: 16px 0;
-  border-bottom: 1px solid #2a2a2a;
+  border-bottom: 1px solid #333;
   transition: color 0.2s;
 }
 .contact-link:last-child { border-bottom: none; }
-.contact-link:hover { color: var(--text-dark); }
+.contact-link:hover { color: #fff; }
 .contact-icon {
   width: 32px; height: 32px;
-  border: 1px solid #444;
+  border: 1px solid #555;
   display: flex; align-items: center; justify-content: center;
-  font-size: 10px; color: #aaa;
+  font-size: 10px; color: #ccc;
   flex-shrink: 0;
   transition: border-color 0.2s, color 0.2s;
 }
-.contact-link:hover .contact-icon { border-color: #888; color: #ccc; }
+.contact-link:hover .contact-icon { border-color: #aaa; color: #fff; }
 .contact-right { padding-top: 40px; }
 .form-label-top {
   font-family: var(--font-mono);
   font-size: 9px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #888;
+  color: #aaa;
   margin-bottom: 24px;
 }
 .contact-form { display: flex; flex-direction: column; gap: 16px; }
@@ -470,31 +470,31 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   font-size: 8px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #888;
+  color: #aaa;
 }
 .form-group input,
 .form-group textarea {
-  background: #1a1a1a;
-  border: 1px solid #333;
+  background: #272727;
+  border: 1px solid #444;
   padding: 12px 14px;
   font-family: var(--font-body);
   font-size: 13px;
-  color: #bbb;
+  color: #ddd;
   outline: none;
   resize: none;
   transition: border-color 0.2s;
 }
 .form-group input:focus,
-.form-group textarea:focus { border-color: #666; color: #ddd; }
+.form-group textarea:focus { border-color: #888; color: #f0f0f0; }
 .btn-send {
   font-family: var(--font-display);
   font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  border: 1px solid #666;
+  border: 1px solid #888;
   padding: 12px 24px;
-  color: #aaa;
+  color: #ccc;
   background: transparent;
   cursor: pointer;
   width: fit-content;
