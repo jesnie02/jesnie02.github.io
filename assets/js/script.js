@@ -8,10 +8,12 @@
   function openNav() {
     navOverlay.classList.add('open');
     document.body.style.overflow = 'hidden';
+    hamburger.setAttribute('aria-expanded', 'true');
   }
   function closeNav() {
     navOverlay.classList.remove('open');
     document.body.style.overflow = '';
+    hamburger.setAttribute('aria-expanded', 'false');
   }
 
   hamburger.addEventListener('click', openNav);
