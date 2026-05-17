@@ -233,7 +233,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   display: grid;
   grid-template-columns: 220px 1fr;
   gap: 0 56px;
-  padding: 80px 40px;
+  padding: 120px 40px;
   border-bottom: var(--border-width) solid var(--border);
 }
 .section-meta { padding-top: 4px; }
@@ -351,7 +351,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 /* ── PROJEKTER ── */
 .projects {
   display: block;
-  padding: 80px 40px;
+  padding: 120px 40px;
   border-bottom: var(--border-width) solid var(--border);
 }
 .projects .section-meta { margin-bottom: 40px; }
@@ -415,7 +415,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 64px;
-  padding: 80px 40px;
+  padding: 120px 40px;
   background: var(--bg-dark);
   border-bottom: none;
 }
@@ -550,19 +550,19 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   .hero-right { height: 60vw; }
   .hero-name { font-size: clamp(32px, 10vw, 48px); }
 
-  .section { grid-template-columns: 1fr; gap: 28px; padding: 56px 20px; }
+  .section { grid-template-columns: 1fr; gap: 28px; padding: 80px 20px; }
   .section-num { font-size: 64px; }
 
   .skills-grid { grid-template-columns: repeat(4, 1fr); }
 
   .timeline-item { grid-template-columns: 1fr; gap: 8px; }
 
-  .projects { padding: 56px 20px; }
+  .projects { padding: 80px 20px; }
   .projects-grid { grid-template-columns: 1fr; }
   .project-card { border-right: none; border-bottom: var(--border-width) solid var(--border); }
   .project-card:last-child { border-bottom: none; }
 
-  .contact { grid-template-columns: 1fr; padding: 56px 20px; gap: 48px; }
+  .contact { grid-template-columns: 1fr; padding: 80px 20px; gap: 48px; }
 
   .site-footer { flex-direction: column; gap: 6px; text-align: center; }
 }
