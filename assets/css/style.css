@@ -42,6 +42,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   font-style: italic;
   font-size: 20px;
   color: var(--ink);
+  justify-self: end;
 }
 .header-center {
   font-family: var(--font-mono);
@@ -587,7 +588,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 .lang-arrow { font-size: 0.7rem; opacity: 0.7; }
 
 .lang-options {
-  display: none; position: absolute; right: 0; top: calc(100% + 8px);
+  display: none; position: absolute; left: 0; top: calc(100% + 8px);
   background: var(--bg-dark); border: 1px solid rgba(255,255,255,0.15); border-radius: 4px;
   list-style: none; padding: 4px 0; min-width: 130px; z-index: 150;
   box-shadow: 0 4px 20px rgba(0,0,0,0.4);
