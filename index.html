@@ -17,10 +17,10 @@
   <div class="nav-overlay" id="navOverlay">
     <button class="nav-close" id="navClose" aria-label="Luk menu">✕</button>
     <nav class="nav-links">
-      <a href="#about" class="nav-link">Om mig</a>
-      <a href="#experience" class="nav-link">Erfaring</a>
-      <a href="#projects" class="nav-link">Projekter</a>
-      <a href="#contact" class="nav-link">Kontakt</a>
+      <a href="#about" class="nav-link" data-i18n="nav.about">Om mig</a>
+      <a href="#experience" class="nav-link" data-i18n="nav.experience">Erfaring</a>
+      <a href="#projects" class="nav-link" data-i18n="nav.projects">Projekter</a>
+      <a href="#contact" class="nav-link" data-i18n="nav.contact">Kontakt</a>
     </nav>
   </div>
 
@@ -28,9 +28,23 @@
   <header class="site-header" id="siteHeader">
     <a href="#" class="header-logo">Jesper A. Nielsen</a>
     <span class="header-center">Portfolio · 2026</span>
-    <button class="hamburger" id="hamburger" aria-label="Åbn menu">
-      <span></span><span></span><span></span>
-    </button>
+    <div style="display:flex;align-items:center;gap:12px;">
+      <div class="lang-select" id="langSelect">
+        <button class="lang-btn" id="langCurrent" aria-label="Vælg sprog">
+          <img class="lang-flag" src="https://flagcdn.com/20x15/dk.png" alt="Dansk">
+          <span class="lang-code">DA</span>
+          <span class="lang-arrow">▾</span>
+        </button>
+        <ul class="lang-options" id="langOptions">
+          <li data-lang="da"><img src="https://flagcdn.com/20x15/dk.png" alt="Dansk flag"> Dansk</li>
+          <li data-lang="en"><img src="https://flagcdn.com/20x15/gb.png" alt="Engelsk flag"> English</li>
+          <li data-lang="de"><img src="https://flagcdn.com/20x15/de.png" alt="Tysk flag"> Deutsch</li>
+        </ul>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Åbn menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </header>
 
   <!-- 1. HERO -->
@@ -38,19 +52,19 @@
     <div class="hero-left">
       <div class="hero-overline">
         <span class="overline-dash"></span>
-        Softwareudvikler · Esbjerg
+        <span data-i18n="hero.overline">Softwareudvikler · Esbjerg</span>
       </div>
       <h1 class="hero-name">JESPER<br>ANTONISEN<br>NIELSEN</h1>
-      <p class="hero-subtitle">Datamatiker &amp; Webudvikler</p>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">Datamatiker & Webudvikler</p>
       <div class="hero-buttons">
-        <a href="#about" class="btn btn-fill">Om mig</a>
-        <a href="#projects" class="btn btn-outline">Projekter</a>
+        <a href="#about" class="btn btn-fill" data-i18n="hero.btn1">Om mig</a>
+        <a href="#projects" class="btn btn-outline" data-i18n="hero.btn2">Projekter</a>
       </div>
       <div class="hero-meta">
         <div class="age-badge">45</div>
         <div class="hero-location">
-          Esbjerg, Danmark<br>
-          <span class="accent">Open to work</span>
+          <span data-i18n="hero.location">Esbjerg, Danmark</span><br>
+          <span class="accent" data-i18n="hero.status">Open to work</span>
         </div>
       </div>
     </div>
@@ -63,18 +77,18 @@
   <!-- 2. OM MIG -->
   <section class="section about reveal" id="about">
     <div class="section-meta">
-      <div class="section-label">Sektion 01</div>
+      <div class="section-label" data-i18n="about.label">Sektion 01</div>
       <div class="section-num">01</div>
-      <div class="section-title">Om mig</div>
+      <div class="section-title" data-i18n="about.title">Om mig</div>
     </div>
     <div class="section-content">
       <div class="bio">
-        <p>Jeg er en dedikeret datamatiker på 45 år med en god arbejdsmoral og en dyb interesse indenfor softwareudvikling. Jeg er i gang med Professionsbacheloren i Softwareudvikling ved Erhvervsakademi SydVest i Esbjerg.</p>
-        <p>Jeg har en baggrund i kokkebranchen, hvor jeg opbyggede stærke evner inden for teamwork, kommunikation og at arbejde under pres. Disse kompetencer er nu en naturlig del af mit arbejde som udvikler — problemløsning og samarbejde spiller en central rolle i det jeg laver.</p>
-        <p>Udover mit studie engagerer jeg mig i frivilligt arbejde på flere områder, herunder app-udvikling og ansvar for en forenings hjemmeside. Jeg er passioneret om Linux-customization, rejser og at bidrage aktivt til communities.</p>
+        <p data-i18n="about.bio1">Jeg er en dedikeret datamatiker på 45 år med en god arbejdsmoral og en dyb interesse indenfor softwareudvikling. Jeg er i gang med Professionsbacheloren i Softwareudvikling ved Erhvervsakademi SydVest i Esbjerg.</p>
+        <p data-i18n="about.bio2">Jeg har en baggrund i kokkebranchen, hvor jeg opbyggede stærke evner inden for teamwork, kommunikation og at arbejde under pres. Disse kompetencer er nu en naturlig del af mit arbejde som udvikler — problemløsning og samarbejde spiller en central rolle i det jeg laver.</p>
+        <p data-i18n="about.bio3">Udover mit studie engagerer jeg mig i frivilligt arbejde på flere områder, herunder app-udvikling og ansvar for en forenings hjemmeside. Jeg er passioneret om Linux-customization, rejser og at bidrage aktivt til communities.</p>
       </div>
       <div class="skills-block">
-        <div class="skills-label">Teknologier &amp; Værktøjer</div>
+        <div class="skills-label" data-i18n="about.skillsLabel">Teknologier & Værktøjer</div>
         <div class="skills-grid">
           <div class="skill-item"><i class="devicon-csharp-plain colored"></i><span>C#</span></div>
           <div class="skill-item"><i class="devicon-dot-net-plain colored"></i><span>.NET</span></div>
@@ -96,55 +110,55 @@
   <!-- 3. ERFARING -->
   <section class="section experience reveal" id="experience">
     <div class="section-meta">
-      <div class="section-label">Sektion 02</div>
+      <div class="section-label" data-i18n="exp.label">Sektion 02</div>
       <div class="section-num">02</div>
-      <div class="section-title">Erfaring</div>
+      <div class="section-title" data-i18n="exp.title">Erfaring</div>
     </div>
     <div class="section-content">
       <div class="timeline">
 
         <div class="timeline-item">
-          <div class="timeline-date">2024 — Nu</div>
+          <div class="timeline-date" data-i18n="exp.date1">2024 — Nu</div>
           <div class="timeline-body">
-            <div class="timeline-role">Tutor</div>
-            <div class="timeline-place">Erhvervsakademi SydVest · Esbjerg</div>
-            <div class="timeline-desc">Vejledning og hjælp til 1. semester studerende inden for programmering og softwareudvikling.</div>
+            <div class="timeline-role" data-i18n="exp.role1">Tutor</div>
+            <div class="timeline-place" data-i18n="exp.place1">Erhvervsakademi SydVest · Esbjerg</div>
+            <div class="timeline-desc" data-i18n="exp.desc1">Vejledning og hjælp til 1. semester studerende inden for programmering og softwareudvikling.</div>
           </div>
         </div>
 
         <div class="timeline-item">
-          <div class="timeline-date">2026 — Nu</div>
+          <div class="timeline-date" data-i18n="exp.date2">2026 — Nu</div>
           <div class="timeline-body">
-            <div class="timeline-role">Professionsbachelor Softwareudvikling</div>
-            <div class="timeline-place">Erhvervsakademi SydVest</div>
-            <div class="timeline-desc">Videregående uddannelse med fokus på backend-arkitektur, cloud og distribuerede systemer.</div>
+            <div class="timeline-role" data-i18n="exp.role2">Professionsbachelor Softwareudvikling</div>
+            <div class="timeline-place" data-i18n="exp.place2">Erhvervsakademi SydVest</div>
+            <div class="timeline-desc" data-i18n="exp.desc2">Videregående uddannelse med fokus på backend-arkitektur, cloud og distribuerede systemer.</div>
           </div>
         </div>
 
         <div class="timeline-item">
-          <div class="timeline-date">2023 — 2026</div>
+          <div class="timeline-date" data-i18n="exp.date3">2023 — 2026</div>
           <div class="timeline-body">
-            <div class="timeline-role">Datamatiker</div>
-            <div class="timeline-place">Erhvervsakademi SydVest</div>
-            <div class="timeline-desc">AP-uddannelse med fokus på .NET, databaser, cloud-løsninger og agile udviklingsmetoder.</div>
+            <div class="timeline-role" data-i18n="exp.role3">Datamatiker</div>
+            <div class="timeline-place" data-i18n="exp.place3">Erhvervsakademi SydVest</div>
+            <div class="timeline-desc" data-i18n="exp.desc3">AP-uddannelse med fokus på .NET, databaser, cloud-løsninger og agile udviklingsmetoder.</div>
           </div>
         </div>
 
         <div class="timeline-item">
-          <div class="timeline-date">2017 — 2022</div>
+          <div class="timeline-date" data-i18n="exp.date4">2017 — 2022</div>
           <div class="timeline-body">
-            <div class="timeline-role">Chauffør</div>
-            <div class="timeline-place">Hotel Outrup · Esbjerg</div>
-            <div class="timeline-desc">Kørsel af mad ud til ældre. Opbyggede stærke kommunikations- og servicekompetencer.</div>
+            <div class="timeline-role" data-i18n="exp.role4">Chauffør</div>
+            <div class="timeline-place" data-i18n="exp.place4">Hotel Outrup · Esbjerg</div>
+            <div class="timeline-desc" data-i18n="exp.desc4">Kørsel af mad ud til ældre. Opbyggede stærke kommunikations- og servicekompetencer.</div>
           </div>
         </div>
 
         <div class="timeline-item">
-          <div class="timeline-date">1998 — 2002</div>
+          <div class="timeline-date" data-i18n="exp.date5">1998 — 2002</div>
           <div class="timeline-body">
-            <div class="timeline-role">Kok / Kokkeelev</div>
-            <div class="timeline-place">Esbjerg Tekniske Skole &amp; Rudbøl Grænsekro</div>
-            <div class="timeline-desc">Uddannelse og arbejde som kok. Udviklede evner inden for teamwork, stresshåndtering og ansvarlighed.</div>
+            <div class="timeline-role" data-i18n="exp.role5">Kok / Kokkeelev</div>
+            <div class="timeline-place" data-i18n="exp.place5">Esbjerg Tekniske Skole & Rudbøl Grænsekro</div>
+            <div class="timeline-desc" data-i18n="exp.desc5">Uddannelse og arbejde som kok. Udviklede evner inden for teamwork, stresshåndtering og ansvarlighed.</div>
           </div>
         </div>
 
@@ -155,16 +169,16 @@
   <!-- 4. PROJEKTER -->
   <section class="section projects reveal" id="projects">
     <div class="section-meta">
-      <div class="section-label">Sektion 03</div>
+      <div class="section-label" data-i18n="proj.label">Sektion 03</div>
       <div class="section-num">03</div>
-      <div class="section-title">Projekter</div>
+      <div class="section-title" data-i18n="proj.title">Projekter</div>
     </div>
     <div class="projects-grid">
 
       <article class="project-card">
         <div class="project-num">001</div>
         <h3 class="project-name">Døde Duer</h3>
-        <p class="project-desc">Eksamenprojekt på 3. semester bygget for Jerne IF. Fuldt deployed webapplikation med rolle-baseret adgang (admin/spiller), client/server-arkitektur og automatiserede tests.</p>
+        <p class="project-desc" data-i18n="proj.desc1">Eksamenprojekt på 3. semester bygget for Jerne IF. Fuldt deployed webapplikation med rolle-baseret adgang (admin/spiller), client/server-arkitektur og automatiserede tests.</p>
         <div class="project-tags">
           <span class="tag">C#</span>
           <span class="tag">.NET</span>
@@ -177,7 +191,7 @@
       <article class="project-card">
         <div class="project-num">002</div>
         <h3 class="project-name">Schneider Electric</h3>
-        <p class="project-desc">Java desktop-applikation udviklet i samarbejde med Schneider Electric. Moderne JavaFX-interface med Microsoft SQL Server og unit tests.</p>
+        <p class="project-desc" data-i18n="proj.desc2">Java desktop-applikation udviklet i samarbejde med Schneider Electric. Moderne JavaFX-interface med Microsoft SQL Server og unit tests.</p>
         <div class="project-tags">
           <span class="tag">Java</span>
           <span class="tag">JavaFX</span>
@@ -189,8 +203,8 @@
 
       <article class="project-card">
         <div class="project-num">003</div>
-        <h3 class="project-name">Film Anbefalingssystem</h3>
-        <p class="project-desc">Anbefalingssystem i Java der bruger caching, HashMap-strukturer og brugersammenligning til at anbefale film baseret på lignende brugeres ratings.</p>
+        <h3 class="project-name" data-i18n="proj.name3">Film Anbefalingssystem</h3>
+        <p class="project-desc" data-i18n="proj.desc3">Anbefalingssystem i Java der bruger caching, HashMap-strukturer og brugersammenligning til at anbefale film baseret på lignende brugeres ratings.</p>
         <div class="project-tags">
           <span class="tag">Java</span>
           <span class="tag">Algoritmer</span>
@@ -205,10 +219,10 @@
   <!-- 5. KONTAKT -->
   <section class="contact reveal" id="contact">
     <div class="contact-left">
-      <div class="section-label" style="color:#888">Sektion 04</div>
+      <div class="section-label" style="color:#888" data-i18n="contact.label">Sektion 04</div>
       <div class="section-num contact-num">04</div>
-      <div class="section-title contact-title">Kontakt</div>
-      <blockquote class="contact-quote">"Lad os bygge noget sammen."</blockquote>
+      <div class="section-title contact-title" data-i18n="contact.title">Kontakt</div>
+      <blockquote class="contact-quote" data-i18n="contact.quote">"Lad os bygge noget sammen."</blockquote>
       <div class="contact-links">
         <a href="mailto:jesperanielsen@mail.dk" class="contact-link">
           <span class="contact-icon">@</span>
@@ -225,21 +239,21 @@
       </div>
     </div>
     <div class="contact-right">
-      <div class="form-label-top">Skriv en besked</div>
+      <div class="form-label-top" data-i18n="contact.formLabel">Skriv en besked</div>
       <form class="contact-form" action="https://formspree.io/f/mredzwgk" method="POST">
         <div class="form-group">
-          <label for="name">Navn</label>
-          <input type="text" id="name" name="name" placeholder="Dit navn" required>
+          <label for="name" data-i18n="contact.nameLabel">Navn</label>
+          <input type="text" id="name" name="name" placeholder="Dit navn" data-i18n-placeholder="contact.namePlaceholder" required>
         </div>
         <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="din@email.dk" required>
+          <label for="email" data-i18n="contact.emailLabel">Email</label>
+          <input type="email" id="email" name="email" placeholder="din@email.dk" data-i18n-placeholder="contact.emailPlaceholder" required>
         </div>
         <div class="form-group">
-          <label for="message">Besked</label>
-          <textarea id="message" name="message" placeholder="Hvad vil du sige?" rows="5" required></textarea>
+          <label for="message" data-i18n="contact.msgLabel">Besked</label>
+          <textarea id="message" name="message" placeholder="Hvad vil du sige?" data-i18n-placeholder="contact.msgPlaceholder" rows="5" required></textarea>
         </div>
-        <button type="submit" class="btn-send">Send besked →</button>
+        <button type="submit" class="btn-send" data-i18n="contact.submit">Send besked →</button>
       </form>
     </div>
   </section>
