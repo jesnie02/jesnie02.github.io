@@ -73,7 +73,7 @@
       'about.label': 'Sektion 01', 'about.title': 'Om mig',
       'about.bio1': 'Jeg er en dedikeret datamatiker på 45 år med en god arbejdsmoral og en dyb interesse indenfor softwareudvikling. Jeg er i gang med Professionsbacheloren i Softwareudvikling ved Erhvervsakademi SydVest i Esbjerg.',
       'about.bio2': 'Jeg har en baggrund i kokkebranchen, hvor jeg opbyggede stærke evner inden for teamwork, kommunikation og at arbejde under pres. Disse kompetencer er nu en naturlig del af mit arbejde som udvikler — problemløsning og samarbejde spiller en central rolle i det jeg laver.',
-      'about.bio3': 'Udover mit studie engagerer jeg mig i frivilligt arbejde på flere områder, herunder app-udvikling og ansvar for en forenings hjemmeside. Jeg er passioneret om Linux-customization, rejser og at bidrage aktivt til communities.',
+      'about.bio3': 'Udover mit studie engagerer jeg mig i frivilligt arbejde på flere områder, herunder app-udvikling og ansvar for en forenings hjemmeside. Jeg er passioneret om Linux-customization, rejser og at bidrage aktivt til fællesskaber.',
       'about.skillsLabel': 'Teknologier & Værktøjer',
 
       'exp.label': 'Sektion 02', 'exp.title': 'Erfaring',
