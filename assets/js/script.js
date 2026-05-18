@@ -71,9 +71,9 @@
       'hero.location': 'Esbjerg, Danmark', 'hero.status': 'Open to work',
 
       'about.label': 'Sektion 01', 'about.title': 'Om mig',
-      'about.bio1': 'Jeg er 45 år og kom til softwareudvikling lidt senere end de fleste. Jeg studerer på Erhvervsakademi SydVest i Esbjerg og er ved at afslutte en Professionsbachelor i Softwareudvikling. Jeg skiftede spor fordi jeg kan lide at bygge ting der virker.',
-      'about.bio2': 'Inden jeg begyndte at kode, var jeg kok. Tempoet i et professionelt køkken lærte mig mere om at arbejde under pres og løse problemer end det meste siden. Det bruger jeg stadig.',
-      'about.bio3': 'Ved siden af studiet hjælper jeg med en forenings hjemmeside og laver lidt frivillig app-udvikling. Resten af tiden roder jeg gerne med Linux-opsætninger eller planlægger næste rejse.',
+      'about.bio1': 'Jeg er en dedikeret datamatiker på 45 år med en god arbejdsmoral og en dyb interesse indenfor softwareudvikling. Jeg er i gang med Professionsbacheloren i Softwareudvikling ved Erhvervsakademi SydVest i Esbjerg.',
+      'about.bio2': 'Jeg har en baggrund i kokkebranchen, hvor jeg opbyggede stærke evner inden for teamwork, kommunikation og at arbejde under pres. Disse kompetencer er nu en naturlig del af mit arbejde som udvikler — problemløsning og samarbejde spiller en central rolle i det jeg laver.',
+      'about.bio3': 'Udover mit studie engagerer jeg mig i frivilligt arbejde på flere områder, herunder app-udvikling og ansvar for en forenings hjemmeside. Jeg er passioneret om Linux-customization, rejser og at bidrage aktivt til communities.',
       'about.skillsLabel': 'Teknologier & Værktøjer',
 
       'exp.label': 'Sektion 02', 'exp.title': 'Erfaring',
@@ -119,9 +119,9 @@
       'hero.location': 'Esbjerg, Denmark', 'hero.status': 'Open to work',
 
       'about.label': 'Section 01', 'about.title': 'About me',
-      'about.bio1': 'I\'m 45 and came to software development a bit later than most. I\'m studying at Erhvervsakademi SydVest in Esbjerg, finishing a Professional Bachelor\'s in Software Development. I switched tracks because I like building things that work.',
-      'about.bio2': 'Before I started coding, I was a chef. The pace of a professional kitchen taught me more about working under pressure and solving problems than most things since. I still use that.',
-      'about.bio3': 'Alongside my studies I help with a club\'s website and do some voluntary app development. The rest of the time I\'m probably tinkering with Linux setups or planning the next trip.',
+      'about.bio1': 'I am a dedicated computer science graduate aged 45, with a strong work ethic and a deep passion for software development. I am currently pursuing a Professional Bachelor\'s degree in Software Development at Erhvervsakademi SydVest in Esbjerg.',
+      'about.bio2': 'I have a background in the culinary industry, where I developed strong skills in teamwork, communication, and working under pressure. These competencies now form a natural part of my work as a developer — problem-solving and collaboration play a central role in what I do.',
+      'about.bio3': 'Alongside my studies, I engage in voluntary work in several areas, including app development and managing a club\'s website. I am passionate about Linux customization, travel, and actively contributing to communities.',
       'about.skillsLabel': 'Technologies & Tools',
 
       'exp.label': 'Section 02', 'exp.title': 'Experience',
@@ -167,9 +167,9 @@
       'hero.location': 'Esbjerg, Dänemark', 'hero.status': 'Offen für Arbeit',
 
       'about.label': 'Abschnitt 01', 'about.title': 'Über mich',
-      'about.bio1': 'Ich bin 45 und kam etwas später als die meisten zur Softwareentwicklung. Ich studiere an der Erhvervsakademi SydVest in Esbjerg und schliesse gerade den Professionsbachelor in Softwareentwicklung ab. Den Richtungswechsel habe ich gemacht, weil ich gerne Dinge baue, die funktionieren.',
-      'about.bio2': 'Bevor ich angefangen habe zu programmieren, war ich Koch. Das Tempo einer professionellen Küche hat mir mehr über Arbeiten unter Druck und Problemlösung beigebracht als das meiste seitdem. Das nutze ich heute noch.',
-      'about.bio3': 'Neben dem Studium helfe ich bei der Website eines Vereins und mache etwas freiwillige App-Entwicklung. Den Rest der Zeit bastle ich an Linux-Setups oder plane die nächste Reise.',
+      'about.bio1': 'Ich bin ein engagierter Informatiker, 45 Jahre alt, mit einer starken Arbeitsmoral und einem tiefen Interesse an der Softwareentwicklung. Ich absolviere derzeit den Professionsbachelor in Softwareentwicklung an der Erhvervsakademi SydVest in Esbjerg.',
+      'about.bio2': 'Ich habe einen Hintergrund in der Gastronomie, wo ich starke Fähigkeiten in Teamarbeit, Kommunikation und dem Arbeiten unter Druck entwickelt habe. Diese Kompetenzen sind nun ein natürlicher Teil meiner Arbeit als Entwickler — Problemlösung und Zusammenarbeit spielen dabei eine zentrale Rolle.',
+      'about.bio3': 'Neben meinem Studium engagiere ich mich ehrenamtlich in verschiedenen Bereichen, darunter App-Entwicklung und die Betreuung einer Vereinswebsite. Ich bin begeistert von Linux-Customization, Reisen und aktivem Community-Beitrag.',
       'about.skillsLabel': 'Technologien & Werkzeuge',
 
       'exp.label': 'Abschnitt 02', 'exp.title': 'Erfahrung',
